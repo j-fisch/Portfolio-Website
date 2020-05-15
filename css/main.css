@@ -1,0 +1,251 @@
+/***** BASE STYLES *****/
+body {
+  font-family: source sans, sans-serif;
+  color: #34494d;
+  margin-left:auto;
+  margin-right:auto;
+  width:1400px;
+  } 
+
+main{
+  margin-left:auto;
+  margin-right:auto;
+  width:1400px;
+  background-color: whitesmoke;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+/***** HEADER *****/
+#home { 
+    height: 885px;
+    background: url(../img/background.jpg); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+header h1 { 
+  padding: 300px 0 0 25px;
+  font-family: 'raleway', sans-serif;
+  font-size: 36px;
+  color: #dbbe71;
+}
+
+header p {
+  font-family: 'raleway', sans-serif;
+  font-size: 30px;
+  color: #dbbe71;
+  padding: 0 50px;
+}
+
+header p span {
+  font-weight: bold;
+  font-family: 'dancing script', sans-serif;
+  font-size: 36px;
+}
+
+header nav {
+    float: right; 
+    padding: 25px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li strong{
+  text-transform: uppercase;
+  text-decoration: inherit;
+  font-size: 18px;
+  color: #dbbe71;
+  padding-left: 30px; 
+  font-family: 'raleway', sans-serif;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: inherit;
+    font-size: 18px;
+    color: #dbbe71;
+    padding-left: 30px; 
+    font-family: 'raleway', sans-serif;
+}
+
+/***** PORTFOLIO *****/
+#background { 
+  height: 100px;
+  background: url(../img/background.jpg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.portfolio{
+  height: 400px;
+  padding: 25px 0;
+}
+
+main h3 {
+  font-family: 'raleway', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 25px 0 18px 0;
+  font-size: 24px;
+  color: whitesmoke;
+}
+
+.portfolio h4 {
+  font-family: 'raleway', sans-serif;
+}
+
+main .description {
+  float: left;
+  width: 300px;
+  padding: 80px 0;
+  line-height: 24px;
+}
+
+main .description-a {
+  float: left;
+  width: 300px;
+  padding: 30px 0;
+  line-height: 24px;
+}
+
+main .description-b {
+  float: left;
+  width: 300px;
+  padding: 10px 0;
+  line-height: 24px;
+}
+
+main .description-c {
+  float: left;
+  width: 300px;
+  padding: -25px 0;
+  line-height: 24px;
+}
+
+#website img{
+  height: auto; 
+  width: auto; 
+  max-width: 500px; 
+  max-height: 500px;  float: left;
+  padding: 50px 75px 0px 300px;
+}
+
+#recipe img{
+  height: auto; 
+  width: auto; 
+  max-width: 500px; 
+  max-height: 500px;
+  float: left;
+  padding: 25px 75px 0px 300px;
+}
+
+#vision img{
+  height: auto; 
+  width: auto; 
+  max-width: 500px; 
+  max-height: 500px;  
+  float: left;
+  padding: 0px 75px 0px 300px;
+}
+
+/***** ABOUT *****/
+#about {
+  color:  whitesmoke;
+  height: 700px;
+  }
+  
+  #about img {
+    width: 300px;
+    float: left;
+    padding:  150px 50px 0px 300px;
+  }
+  
+  main h3 {
+    background-color:  #DBBE71;
+    font-family: 'raleway', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 24px;
+    margin: 0 auto;
+  }
+
+.first {
+    padding: 75px 15px 0px 0px;
+    width: 300px;
+    line-height: 24px;
+    color: #34494d;
+  }
+
+.second {
+  padding: 30px 15px 0px 0px;
+  width: 300px;
+  line-height: 24px;
+  color: #34494d;
+}
+
+/***** CONTACT *****/
+#contact .full-width {
+  padding: 30px 0;
+  height: 250px;
+}
+
+#contact h3 {
+  font-family: 'raleway', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  padding: 25px;
+  background-color: #D6E1E3;
+}
+
+#contact h4 {
+  text-align: center;
+  font-family: 'raleway', sans-serif;
+}
+
+#contact p {
+  text-align: center;
+}
+
+#contact {
+  color:  #dbbe71;
+}
+
+#contact img {
+  width: 50px;
+}
+
+#contact #icons {
+  padding-left: 200px;
+}
+
+#contact ul li{
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.connect img {
+  width: 500px;
+  padding: 100px 0px 50px 425px ;
+}
+
+/***** FOOTER *****/
+footer p {
+  text-align: center;
+  background-color: #DBBE71;
+  color:  whitesmoke;
+  margin: 0px auto;
+  padding: 25px 0;
+  clear: both;
+}
